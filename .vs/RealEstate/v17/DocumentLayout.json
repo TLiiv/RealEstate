@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "S:\\Prog\\Projektid\\RealEstate\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D0892050-5775-42BD-AEAB-7B70F8480C29}|RealEstate.Server\\RealEstate.Server.csproj|s:\\prog\\projektid\\realestate\\realestate.server\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0892050-5775-42BD-AEAB-7B70F8480C29}|RealEstate.Server\\RealEstate.Server.csproj|solutionrelative:realestate.server\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0892050-5775-42BD-AEAB-7B70F8480C29}|RealEstate.Server\\RealEstate.Server.csproj|s:\\prog\\projektid\\realestate\\realestate.server\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0892050-5775-42BD-AEAB-7B70F8480C29}|RealEstate.Server\\RealEstate.Server.csproj|solutionrelative:realestate.server\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0892050-5775-42BD-AEAB-7B70F8480C29}|RealEstate.Server\\RealEstate.Server.csproj|s:\\prog\\projektid\\realestate\\realestate.server\\realestate.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D0892050-5775-42BD-AEAB-7B70F8480C29}|RealEstate.Server\\RealEstate.Server.csproj|solutionrelative:realestate.server\\realestate.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "S:\\Prog\\Projektid\\RealEstate\\RealEstate.Server\\Data\\User.cs",
+              "RelativeDocumentMoniker": "RealEstate.Server\\Data\\User.cs",
+              "ToolTip": "S:\\Prog\\Projektid\\RealEstate\\RealEstate.Server\\Data\\User.cs",
+              "RelativeToolTip": "RealEstate.Server\\Data\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:24:13.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "S:\\Prog\\Projektid\\RealEstate\\RealEstate.Server\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "RealEstate.Server\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "S:\\Prog\\Projektid\\RealEstate\\RealEstate.Server\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "RealEstate.Server\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:23:00.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RealEstate.Server.csproj",
+              "DocumentMoniker": "S:\\Prog\\Projektid\\RealEstate\\RealEstate.Server\\RealEstate.Server.csproj",
+              "RelativeDocumentMoniker": "RealEstate.Server\\RealEstate.Server.csproj",
+              "ToolTip": "S:\\Prog\\Projektid\\RealEstate\\RealEstate.Server\\RealEstate.Server.csproj",
+              "RelativeToolTip": "RealEstate.Server\\RealEstate.Server.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-27T17:04:02.038Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

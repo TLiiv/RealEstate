@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstate.Server", "RealEstate.Server\RealEstate.Server.csproj", "{D0892050-5775-42BD-AEAB-7B70F8480C29}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "realestate.client", "realestate.client\realestate.client.esproj", "{6DF5A44E-C7A2-48C0-AF75-C3FF3B71C30C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0892050-5775-42BD-AEAB-7B70F8480C29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0892050-5775-42BD-AEAB-7B70F8480C29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0892050-5775-42BD-AEAB-7B70F8480C29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0892050-5775-42BD-AEAB-7B70F8480C29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DF5A44E-C7A2-48C0-AF75-C3FF3B71C30C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DF5A44E-C7A2-48C0-AF75-C3FF3B71C30C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DF5A44E-C7A2-48C0-AF75-C3FF3B71C30C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6DF5A44E-C7A2-48C0-AF75-C3FF3B71C30C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DF5A44E-C7A2-48C0-AF75-C3FF3B71C30C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DF5A44E-C7A2-48C0-AF75-C3FF3B71C30C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
