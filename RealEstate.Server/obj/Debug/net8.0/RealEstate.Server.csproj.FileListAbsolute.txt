@@ -157,3 +157,4 @@ S:\Prog\Projektid\RealEstate\RealEstate.Server\bin\Debug\net8.0\Microsoft.AspNet
 S:\Prog\Projektid\RealEstate\RealEstate.Server\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
 S:\Prog\Projektid\RealEstate\RealEstate.Server\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 S:\Prog\Projektid\RealEstate\RealEstate.Server\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+S:\Prog\Projektid\RealEstate\RealEstate.Server\obj\Debug\net8.0\RealEstate.Server.sourcelink.json
