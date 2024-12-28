@@ -30,7 +30,6 @@ S:\Prog\Projektid\RealEstate\RealEstate.Server\obj\Debug\net8.0\staticwebassets\
 S:\Prog\Projektid\RealEstate\RealEstate.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.RealEstate.Server.props
 S:\Prog\Projektid\RealEstate\RealEstate.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.RealEstate.Server.props
 S:\Prog\Projektid\RealEstate\RealEstate.Server\obj\Debug\net8.0\staticwebassets.pack.json
-S:\Prog\Projektid\RealEstate\RealEstate.Server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 S:\Prog\Projektid\RealEstate\RealEstate.Server\obj\Debug\net8.0\RealEsta.2BB0E247.Up2Date
 S:\Prog\Projektid\RealEstate\RealEstate.Server\obj\Debug\net8.0\RealEstate.Server.dll
 S:\Prog\Projektid\RealEstate\RealEstate.Server\obj\Debug\net8.0\refint\RealEstate.Server.dll
@@ -158,3 +157,4 @@ S:\Prog\Projektid\RealEstate\RealEstate.Server\bin\Debug\net8.0\Microsoft.Extens
 S:\Prog\Projektid\RealEstate\RealEstate.Server\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 S:\Prog\Projektid\RealEstate\RealEstate.Server\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 S:\Prog\Projektid\RealEstate\RealEstate.Server\obj\Debug\net8.0\RealEstate.Server.sourcelink.json
+S:\Prog\Projektid\RealEstate\RealEstate.Server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
