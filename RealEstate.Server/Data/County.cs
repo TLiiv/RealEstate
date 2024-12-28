@@ -2,7 +2,7 @@
 {
     public class County
     {
-        public int Id { get; set; }
+        public Guid CountyId { get; set; }
         public string Name { get; set; }
         public List<City> Cities { get; set; } = new List<City>();
     }

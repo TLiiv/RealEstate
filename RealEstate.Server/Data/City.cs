@@ -2,9 +2,9 @@
 {
     public class City
     {
-        public int Id { get; set; }
+        public Guid CityId { get; set; }
         public string Name { get; set; }
-        public int CountyId { get; set; }
+        public Guid CountyId { get; set; }
         public County County { get; set; }
         public List<District> Districts { get; set; } = new List<District>();
     }
