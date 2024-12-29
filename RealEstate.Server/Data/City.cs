@@ -1,7 +1,10 @@
-﻿namespace RealEstate.Server.Data
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace RealEstate.Server.Data
 {
     public class City
     {
+        [Key]
         public Guid CityId { get; set; }
         public string Name { get; set; }
         public Guid CountyId { get; set; }

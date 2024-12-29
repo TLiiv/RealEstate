@@ -1,7 +1,10 @@
-﻿namespace RealEstate.Server.Data
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace RealEstate.Server.Data
 {
     public class UserPostDetails
     {
+        [Key]
         public Guid Id { get; set; }
         public EnergyClass EnergyClass { get; set; } 
         public string Description { get; set; }

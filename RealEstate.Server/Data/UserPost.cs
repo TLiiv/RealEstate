@@ -1,9 +1,11 @@
-﻿using System.Diagnostics.Metrics;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Diagnostics.Metrics;
 
 namespace RealEstate.Server.Data
 {
     public class UserPost
     {
+        [Key]
         public Guid UserPostId { get; set; }  // Primary Key
         public Guid UserId { get; set; }  // Foreign Key to User
         public User User { get; set; }  // Navigation Property to User

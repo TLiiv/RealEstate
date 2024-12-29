@@ -25,10 +25,10 @@ namespace RealEstate.Server.Data
             base.OnModelCreating(builder);
 
             builder.Entity<UserPost>()
-        .HasOne(up => up.User)
-        .WithMany(u => u.UserPosts)
-        .HasForeignKey(up => up.UserId)
-        .OnDelete(DeleteBehavior.Cascade);
+                .HasOne(up => up.User)
+                .WithMany(u => u.UserPosts)
+                .HasForeignKey(up => up.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
 
             // Configure other relationships (City, County, District)
             builder.Entity<UserPost>()
@@ -48,9 +48,7 @@ namespace RealEstate.Server.Data
                 .WithMany()
                 .HasForeignKey(up => up.DistrictId)
                 .OnDelete(DeleteBehavior.Restrict);
-        }
-
-        
+        }  
     }
 }
 
