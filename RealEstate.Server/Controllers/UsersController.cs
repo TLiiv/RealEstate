@@ -84,18 +84,19 @@ namespace RealEstate.Server.Controllers
                 if (ModelState.IsValid)
                 {
                     // Create a new User object based on the incoming model
-                    var user = new User
+                    var user = new User()
                     {
                         UserId = Guid.NewGuid(),
                         UserFirstName = model.UserFirstName,
                         UserLastName = model.UserLastName,
                         UserEmail = model.UserEmail,
                         UserPassword = model.UserPassword, 
-                        CreatedAt = DateTime.UtcNow
+                        CreatedAt = DateTime.UtcNow,
+                        Avatar = model.Avatar,
                     };
 
                     // Add the new user to the database
-                    _context.Users.Add(user);
+                    _context.User.Add(user);
                     await _context.SaveChangesAsync();
 
                     response.Status = true;

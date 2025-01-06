@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css';
+import CreateUserForm from './components/CreateUserForm';
 
 //interface Forecast {
 //    date: string;
@@ -41,6 +42,7 @@ function App() {
 
     return (
         <div>
+            <CreateUserForm/>
             {contents}
         </div>
     );
