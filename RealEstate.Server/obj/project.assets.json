@@ -4919,23 +4919,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tarmo\\.nuget\\packages\\": {},
+    "C:\\Users\\TP\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "S:\\Prog\\Projektid\\RealEstate\\RealEstate.Server\\RealEstate.Server.csproj",
+      "projectUniqueName": "C:\\Progemine\\Projektid\\Estate\\RealEstate\\RealEstate.Server\\RealEstate.Server.csproj",
       "projectName": "RealEstate.Server",
-      "projectPath": "S:\\Prog\\Projektid\\RealEstate\\RealEstate.Server\\RealEstate.Server.csproj",
-      "packagesPath": "C:\\Users\\tarmo\\.nuget\\packages\\",
-      "outputPath": "S:\\Prog\\Projektid\\RealEstate\\RealEstate.Server\\obj\\",
+      "projectPath": "C:\\Progemine\\Projektid\\Estate\\RealEstate\\RealEstate.Server\\RealEstate.Server.csproj",
+      "packagesPath": "C:\\Users\\TP\\.nuget\\packages\\",
+      "outputPath": "C:\\Progemine\\Projektid\\Estate\\RealEstate\\RealEstate.Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\tarmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\TP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RealEstate.Server.Data;
 using RealEstate.Server.Models;
@@ -9,6 +10,7 @@ namespace RealEstate.Server.Controllers
     [Route("[controller]")]
     public class UsersController : ControllerBase
     {
+        
         private readonly ApplicationDbContext _context;
         public UsersController(ApplicationDbContext context)
         {
@@ -16,20 +18,20 @@ namespace RealEstate.Server.Controllers
         }
         // GET: Users
         [HttpGet]
-        public async Task<IActionResult> Index(int  pageIndex = 0, int pageSize = 10)
+        public async Task<IActionResult> Index(int pageIndex = 0, int pageSize = 10)
         {
             BaseResponseModel response = new BaseResponseModel();
             try
             {
-                var userCount = await _context.Users.CountAsync(); 
+                var userCount = await _context.Users.CountAsync();
                 var userList = await _context.Users
                     .Skip(pageIndex * pageSize)
                     .Take(pageSize)
-                    .ToListAsync(); 
+                    .ToListAsync();
 
                 response.Status = true;
                 response.StatusMessage = "Success";
-                response.Data = new {Users = userList, Count = userCount};
+                response.Data = new { Users = userList, Count = userCount };
 
                 return Ok(response);
 
@@ -39,8 +41,8 @@ namespace RealEstate.Server.Controllers
 
                 response.Status = false;
                 response.StatusMessage = "Something went wrong";
-                
-               return BadRequest(response);
+
+                return BadRequest(response);
             }
         }
 
@@ -64,6 +66,50 @@ namespace RealEstate.Server.Controllers
                 response.Data = user;
 
                 return Ok(response);
+            }
+            catch (Exception ex)
+            {
+                response.Status = false;
+                response.StatusMessage = "Something went wrong";
+                return BadRequest(response);
+            }
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> CreateUser([FromBody] UserCreateModel model)
+        {
+            BaseResponseModel response = new BaseResponseModel();
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    // Create a new User object based on the incoming model
+                    var user = new User
+                    {
+                        UserId = Guid.NewGuid(),
+                        UserFirstName = model.UserFirstName,
+                        UserLastName = model.UserLastName,
+                        UserEmail = model.UserEmail,
+                        UserPassword = model.UserPassword, 
+                        CreatedAt = DateTime.UtcNow
+                    };
+
+                    // Add the new user to the database
+                    _context.Users.Add(user);
+                    await _context.SaveChangesAsync();
+
+                    response.Status = true;
+                    response.StatusMessage = "User created successfully";
+                    response.Data = user;
+
+                    return Ok(response);
+                }
+                else
+                {
+                    response.Status = false;
+                    response.StatusMessage = "Invalid input data";
+                    return BadRequest(response);
+                }
             }
             catch (Exception ex)
             {

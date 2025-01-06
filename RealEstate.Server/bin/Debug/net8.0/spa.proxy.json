@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:57235",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "S:\\Prog\\Projektid\\RealEstate\\RealEstate.Server\\..\\realestate.client",
+"WorkingDirectory": "C:\\Progemine\\Projektid\\Estate\\RealEstate\\RealEstate.Server\\..\\realestate.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

@@ -1,1 +1,2 @@
 S:\Prog\Projektid\RealEstate\realestate.client\obj\Debug\realestate.client.esproj.CoreCompileInputs.cache
+C:\Progemine\Projektid\Estate\RealEstate\realestate.client\obj\Debug\realestate.client.esproj.CoreCompileInputs.cache
