@@ -7,7 +7,9 @@ namespace RealEstate.Server.Data
     {
         [Key]
         public Guid UserPostId { get; set; }  // Primary Key
+
         public Guid UserId { get; set; }  // Foreign Key to User
+
         public User User { get; set; }  // Navigation Property to User
         public string Title { get; set; }
         public int Price { get; set; }

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+//import { useEffect, useState } from 'react';
 import './App.css';
 import CreateUserForm from './components/CreateUserForm';
 
@@ -9,45 +9,44 @@ import CreateUserForm from './components/CreateUserForm';
 //    summary: string;
 //}
 
-interface Users {
-    UserFirstName: string;
-}
+//interface Users {
+//    UserFirstName: string;
+//}
 
 function App() {
-    const [users, setUsers] = useState<Users[]>([]);
+    //const [users, setUsers] = useState<Users[]>([]);
 
-    async function populateUsersData() {
-        const response = await fetch('users');
-        if (response.ok) {
-            const data = await response.json();
-            setUsers(data);
-        }
-    }
+    //async function populateUsersData() {
+    //    const response = await fetch('users');
+    //    if (response.ok) {
+    //        const data = await response.json();
+    //        setUsers(data);
+    //    }
+    //}
 
-    useEffect(() => {
-        populateUsersData();
-    }, []);
+    //useEffect(() => {
+    //    populateUsersData();
+    //}, []);
 
-    const contents = users.length > 0 ? (
-        <ul>
-            {users.map((u, index) => (
-                <li key={index}>{u.UserFirstName}</li>
-            ))}
-        </ul>
-    ) : (
-        <p>Loading users...</p>
-    );
+    //const contents = users.length > 0 ? (
+    //    <ul>
+    //        {users.map((u, index) => (
+    //            <li key={index}>{u.UserFirstName}</li>
+    //        ))}
+    //    </ul>
+    //) : (
+    //    <p>Loading users...</p>
+    //);
 
     
 
     return (
         <div>
             <CreateUserForm/>
-            {contents}
+            {/*{contents}*/}
         </div>
     );
 
-   
 }
 
 export default App;
